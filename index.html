@@ -4,64 +4,65 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
 		<!-- header -->
 		<header>
 			<nav>
-				<a href="#">
-					<span>Web</span>
+				<a href="./index.html" class="logo">
+					<span class="web-logo">Web</span>
 					Studio
 				</a>
 				<ul>
-					<li><a href="#">Студия</a></li>
-					<li><a href="./portfolio.html">Портфолио</a></li>
-					<li><a href="#">Контакты</a></li>
+					<li><a href="#" class="active nav-link">Студия</a></li>
+					<li><a href="./portfolio.html" class="active nav-link">Портфолио</a></li>
+					<li><a href="#" class="active nav-link">Контакты</a></li>
 				</ul>
 			</nav>
 			<ul>
-				<li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+				<li><a href="mailto:info@devstudio.com" class="active contacts">info@devstudio.com</a></li>
 				<li>
-					<a href="tel:+380961111111">+38 096 111 11 11</a>
+					<a href="tel:+380961111111" class="active contacts">+38 096 111 11 11</a>
 				</li>
 			</ul>
 		</header>
 
 		<!-- hero -->
-		<section>
-			<h1>Эффективные решения для вашего бизнеса</h1>
-			<a href="#">Заказать услугу</a>
+		<section class="hero">
+			<h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+			<a href="#" class="order">Заказать услугу</a>
 		</section>
 
 		<!-- Особенности -->
 		<section>
-			<h2>Особенности</h2>
+			<h2 class="hide">Особенности</h2>
 			<ul>
 				<li>
 					<img src="images/main/Group.svg" alt="" />
 					<h3>Внимание к деталям</h3>
-					<p>
+					<p class="main-font">
 						Идейные соображения, а также начало повседневной работы по формированию позиции.
 					</p>
 				</li>
 				<li>
 					<img src="images/main/clock.svg" alt="" />
 					<h3>Пунктуальность</h3>
-					<p>
+					<p class="main-font">
 						Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
 					</p>
 				</li>
 				<li>
 					<img src="images/main/diagram.svg" alt="" />
 					<h3>Планирование</h3>
-					<p>
+					<p class="main-font">
 						Равным образом консультация с широким активом в значительной степени обуславливает.
 					</p>
 				</li>
 				<li>
 					<img src="images/main/astronaut.svg" alt="" />
 					<h3>Современные технологии</h3>
-					<p>
+					<p class="main-font">
 						Значимость этих проблем настолько очевидна, что реализация плановых заданий.
 					</p>
 				</li>
@@ -70,32 +71,32 @@
 
 		<!-- Чем Занимаемся -->
 		<section>
-			<h2>Чем Мы Занимаемся</h2>
+			<h2 class="title-section">Чем Мы Занимаемся</h2>
 			<ul>
 				<li>
 					<img src="images/main/dekstop.jpg" alt="" width="370" />
-					<h3>Десктопные приложения</h3>
+					<h3 class="what-doing">Десктопные приложения</h3>
 				</li>
 				<li>
 					<img src="images/main/mobile.jpg" alt="" width="370" />
-					<h3>Мобильные приложения</h3>
+					<h3 class="what-doing">Мобильные приложения</h3>
 				</li>
 				<li>
 					<img src="images/main/design.jpg" alt="" width="370" />
 
-					<h3>Дизайнерские решения</h3>
+					<h3 class="what-doing">Дизайнерские решения</h3>
 				</li>
 			</ul>
 		</section>
 
 		<!-- Команда -->
-		<section>
-			<h2>Наша Команда</h2>
+		<section class="gray">
+			<h2 class="title-section">Наша Команда</h2>
 			<ul>
 				<li>
 					<img src="images/main/team-1.jpg" alt="фото Николай Кучеренко" width="270" />
-					<h3>Николай Кучеренко</h3>
-					<p>Product Designer</p>
+					<h3 class="comand-name">Николай Кучеренко</h3>
+					<p class="main-font">Product Designer</p>
 					<ul>
 						<li><a href="#" aria-label="Instagram"></a></li>
 						<li><a href="#" aria-label="twitter"></a></li>
@@ -105,8 +106,8 @@
 				</li>
 				<li>
 					<img src="images/main/team-2.jpg" alt="фото Ольга Иванова" width="270" />
-					<h3>Ольга Иванова</h3>
-					<p>Frontend Developer</p>
+					<h3 class="comand-name">Ольга Иванова</h3>
+					<p class="main-font">Frontend Developer</p>
 					<ul>
 						<li><a href="#" aria-label="Instagram"></a></li>
 						<li><a href="#" aria-label="twitter"></a></li>
@@ -116,8 +117,8 @@
 				</li>
 				<li>
 					<img src="images/main/team-3.jpg" alt="фото Андрей Шевченко" width="270" />
-					<h3>Андрей Шевченко</h3>
-					<p>Marketing</p>
+					<h3 class="comand-name">Андрей Шевченко</h3>
+					<p class="main-font">Marketing</p>
 					<ul>
 						<li><a href="#" aria-label="Instagram"></a></li>
 						<li><a href="#" aria-label="twitter"></a></li>
@@ -127,8 +128,8 @@
 				</li>
 				<li>
 					<img src="images/main/team-4.jpg" alt="фото Иван Николаев" width="270" />
-					<h3>Иван Николаев</h3>
-					<p>UI Designer</p>
+					<h3 class="comand-name">Иван Николаев</h3>
+					<p class="main-font">UI Designer</p>
 					<ul>
 						<li><a href="#" aria-label="Instagram"></a></li>
 						<li><a href="#" aria-label="twitter"></a></li>
@@ -141,7 +142,7 @@
 
 		<!-- Клиенты -->
 		<section>
-			<h2>Постоянные Клиенты</h2>
+			<h2 class="title-section">Постоянные Клиенты</h2>
 			<ul>
 				<li>
 					<a href=""><img src="images/main/logo-1.svg" alt="постоянный клиент" /></a>
@@ -165,19 +166,19 @@
 		</section>
 
 		<!-- footer -->
-		<footer>
-			<a href="#">
-				<span>Web</span>
-				Studio
+		<footer class="footer-bg">
+			<a href="#" class="logo">
+				<span class="web-logo">Web</span>
+				<span class="footer-logo">Studio</span>
 			</a>
-			<address>
+			<address class="non-italic">
 				<ul>
-					<li><a href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-					<li><a href="mailto:info@example.com">info@example.com</a></li>
-					<li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+					<li><a href="" class="adrs">г. Киев, пр-т Леси Украинки, 26</a></li>
+					<li><a href="mailto:info@example.com" class="contacts-footer">info@example.com</a></li>
+					<li><a href="tel:+380991111111" class="contacts-footer">+38 099 111 11 11</a></li>
 				</ul>
 			</address>
-			<b>присоединяйтесь</b>
+			<b class="join-in">присоединяйтесь</b>
 			<ul>
 				<li>
 					<a href="" aria-label="Instagram">Instagram</a>

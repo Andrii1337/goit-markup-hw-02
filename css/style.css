@@ -1,0 +1,92 @@
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #212121;
+}
+.main-font {
+	color: #757575;
+}
+
+.logo {
+	font-weight: bold;
+	font-size: 26px;
+}
+.web-logo {
+	color: #2196f3;
+}
+.nav-link {
+	font-size: 14px;
+	line-height: 16px;
+	color: #212121;
+	font-weight: 500;
+}
+.active:hover,
+.active:focus {
+	color: #2196f3;
+}
+.contacts {
+	font-size: 14px;
+	color: #757575;
+}
+.hero {
+	background-color: #757575;
+	padding: 400px 150px;
+}
+.hero-title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 60px;
+	color: #ffffff;
+}
+.order {
+	background-color: #2196f3;
+	color: #ffffff;
+	padding: 12px 20px;
+}
+
+/* правильно ли скрыл? */
+.hide {
+	display: none;
+}
+.title-section {
+	font-weight: bold;
+	font-size: 36px;
+	color: #212121;
+}
+.what-doing {
+	color: #ffffff;
+	background-color: rgba(47, 48, 58, 0.8);
+	width: 370px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.gray {
+	background: #f5f4fa;
+}
+.comand-name {
+	font-weight: 500;
+	font-size: 16px;
+	color: #212121;
+}
+.footer-bg {
+	background: #2f303a;
+}
+.footer-logo {
+	color: #ffffff;
+}
+.non-italic {
+	font-style: normal;
+}
+.adrs {
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 24px;
+}
+.contacts-footer {
+	color: rgba(255, 255, 255, 0.6);
+}
+.join-in {
+	color: #ffffff;
+}
