@@ -11,7 +11,7 @@ a {
 }
 
 .logo {
-	font-family: Raleway, sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-weight: bold;
 	font-size: 26px;
 	line-height: 1.192;
@@ -55,13 +55,21 @@ a {
 .hero-title {
 	font-weight: 900;
 	font-size: 44px;
-	line-height: 60px;
+	line-height: 1.363;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
 	color: #ffffff;
 }
 .order {
 	background-color: #2196f3;
-	color: #ffffff;
 	padding: 12px 20px;
+	font-size: 16px;
+	line-height: 1.875;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: #ffffff;
+	font-weight: bold;
 }
 
 .title-section {
@@ -148,6 +156,7 @@ a {
 
 /* portfolio */
 .btn {
+	font-family: "Roboto";
 	border: none;
 	background-color: transparent;
 	background: #f5f4fa;
